@@ -13,6 +13,6 @@ function Section({ title, children }) {
 
 export default Section;
 
-Section.prototype = {
+Section.proptype = {
   title: PropTypes.string.isRequired,
 };
